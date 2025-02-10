@@ -7,7 +7,7 @@ class Config:
     LLM_PROVIDER = os.getenv("LLM_PROVIDER", "dashscope")
 
     # DashScope API Configuration (Alibaba Cloud)
-    DASHSCOPE_API_KEY = os.getenv("DASHSCOPE_API_KEY", "")
+    DASHSCOPE_API_KEY = os.getenv("DASHSCOPE_API_KEY")
     DASHSCOPE_API_URL = os.getenv("DASHSCOPE_API_URL", "https://dashscope-intl.aliyuncs.com/compatible-mode/v1")
     
     # Qwen Model Name
