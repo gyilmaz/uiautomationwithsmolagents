@@ -1,0 +1,6 @@
+smolagents
+playwright
+python-dotenv
+transformers
+torch
+httpx
